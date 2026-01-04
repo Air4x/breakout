@@ -2,8 +2,13 @@
 A simple recreation of breakout with hare using raylib 5.5.
 [[./breakout.png]]
 ** How to compile
+Put ~libraylib.a~ in ~./vendor/~ and run:
 #+begin_src shell
   make
+#+end_src
+you can then open breakout with:
+#+begin_src shell
+  ./breakout
 #+end_src
 
 ** Dependencies
