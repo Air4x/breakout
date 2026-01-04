@@ -59,7 +59,7 @@ const BRICK_HEIGHT: f32 = 30.0;
 export fn main() void = {
 	let window_title = c::fromstr("Hello from Hare")!;
 	defer free(window_title);
-	let projectile = Rectangle {x = 0f32, y = 0f32, width = 30f32, height=30f32};
+	let projectile = Rectangle {x = 395.0, y = 470.0, width = 30f32, height=30f32};
 	let proj_old_pos = Position {x = 0f32, y = 0f32};
 	let proj_new_pos = Position {x = 0f32, y = 0f32};
 	let bar = Rectangle {x = 350.0, y = 500.0, width = 150.0, height = 15.0};
